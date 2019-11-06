@@ -1,6 +1,6 @@
 # 1. Project
 ![1](https://user-images.githubusercontent.com/50629716/68260828-875cab80-0081-11ea-8c9e-282c7916f433.png)
-![1](https://user-images.githubusercontent.com/50629716/68260829-888dd880-0081-11ea-9545-9fca5ba247eb.png)
+![2](https://user-images.githubusercontent.com/50629716/68260918-ca1e8380-0081-11ea-84f1-8d01e4b6a70d.png)
 
 
 2. Introduction
