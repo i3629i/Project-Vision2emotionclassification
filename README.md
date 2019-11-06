@@ -3,11 +3,20 @@
 ![2](https://user-images.githubusercontent.com/50629716/68260918-ca1e8380-0081-11ea-84f1-8d01e4b6a70d.png)
 
 
-2. Introduction
-최근 카메라의 화질이 향상되면서 지문까지 고화질로 찍히게 되었습니다.
-이를 통해 사용자가 V자를 하고 사진을 찍거나 손바닥이 향하게 찍은 사진을 SNS에 게시하게 되면,
-사용자가 게시한 사진을 통해 지문을 해킹할 수 있게 되었습니다.
-본 팀에서는 딥 러닝 기반 비전인식 기술을 사용해 이를 방지하기 위한 이미지 지문 보호 프로그램을 설계하였습니다.
+# 2. Introduction
+행복과 화난 표정의 이미지(48x48)를 총 9150개를 학습시키고 총 1928개의 검증데이터를 CNN으로 학습 시켜 2가지의 감정을 분류 할 수 있게 만들었다.
+데이터셋의 해상도가 낮아 모델의 층을 낮게 쌓았다.
 
+# 3. Environment and Installation
+## 1. 개발환경
+* Anaconda3 설치
+  * Python3.6x 버젼을 가상환경으로 추가.
+* Pycharm 설치
+  * Pycharm에서 Settings-> Project Interpreter에서 경로를 Anaconda3의 가상환경으로 추가한 Python3을 경로를 설정
 
-3. Environment and Installation
+## 2. 필수 라이브러리
+* Keras
+* numpy
+* tensorflow
+* cv2
+* dlib
